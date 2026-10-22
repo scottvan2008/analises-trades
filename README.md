@@ -4,7 +4,10 @@ Landing page estática em português, sem framework, dependências ou etapa de b
 
 ## Antes de publicar
 
-- Em `index.html`, substitua **todas** as ocorrências de `#WHATSAPP_LINK` pelo convite oficial do WhatsApp e de `#BINGX_LINK` pelo link exclusivo da parceria. Os marcadores estão diretamente nos atributos `href`; não há URLs duplicadas no JavaScript. Enquanto não substituídos, eles não abrem um grupo ou cadastro real.
+- Links ativos em `index.html`:
+  - Comunidade no WhatsApp: https://chat.whatsapp.com/CgeUKy9udVs3Szmu9stZpa
+  - Cadastro na BingX pela parceria: https://bingxdao.com/partner/paulocesar/
+- A comunidade é gratuita. O e-book Trading Simplificado, normalmente vendido por R$ 49,99, é um bônus para quem abre uma conta na BingX pelo link da parceria e avisa na comunidade para receber o material.
 - Troque `og:image` de `/assets/paulo.webp` pela URL absoluta desta imagem no domínio definitivo (por exemplo, `https://seu-dominio.com/assets/paulo.webp`) para máxima compatibilidade dos compartilhamentos.
 - Revise as condições de acesso e os dados da comunidade antes de veicular a campanha.
 - Para Vercel: use o preset **Other**, sem comando de build, com a raiz do projeto como diretório de publicação. Não é necessário `vercel.json`. Não houve deploy nesta tarefa.
