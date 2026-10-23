@@ -13,3 +13,8 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}.reveal-pending{opacity:1;transform:none}}
 @media print{body{background:white;color:black}.mobile-cta,.hero-chart,.skip-link{display:none}.reveal-pending{opacity:1;transform:none}.section{padding-block:25px}p{color:#444}.container{width:100%}h1,h2,h3,strong{color:#111}.button{border:1px solid black}.footer{padding-bottom:20px}}
 @media(max-width:600px){.nav .button{display:none}.founder-monogram{white-space:nowrap}}
+.hero-button{font-size:17px;padding:20px 28px;gap:14px;border-radius:6px}.hero-button svg{width:22px;height:22px}.hero-button>span:last-child{font-size:22px}
+@media(min-width:1500px){.hero-button{font-size:18px;padding:22px 30px}}
+@media(max-width:1100px){.hero-button{font-size:16px;padding:18px 22px;gap:12px}}
+@media(max-width:800px){.hero-button{max-width:360px;font-size:15px;padding:17px 16px;gap:10px}}
+@media(max-width:600px){.hero-button{max-width:100%;font-size:14.5px;padding:19px 10px;gap:7px;white-space:nowrap}.hero-button svg{width:19px;height:19px}.hero-button>span:last-child{font-size:20px}}
